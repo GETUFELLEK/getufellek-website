@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 
 const HomePage: React.FC = () => {
@@ -12,8 +11,8 @@ const HomePage: React.FC = () => {
             <Image
               src="/profile.png"
               alt="Getu Tadesse Fellek"
-              width={256} // Specify the image width
-              height={256} // Specify the image height
+              width={256}
+              height={256}
               className="rounded-full w-48 h-48 md:w-64 md:h-64 mb-6 shadow-lg"
             />
           </div>
