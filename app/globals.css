@@ -31,3 +31,37 @@ body {
     text-wrap: balance;
   }
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 20px;
+}
+.header,
+.footer {
+  background-color: #1e293b; /* Dark blue */
+  color: #ffffff;
+}
+
+.btn {
+  background-color: #3b82f6; /* Blue */
+  color: #ffffff;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.btn:hover {
+  background-color: #2563eb; /* Slightly darker blue */
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
