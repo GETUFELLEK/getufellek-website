@@ -77,12 +77,6 @@ const PublicationsPage: React.FC = () => {
                   {pub.conference}
                 </p>
               )}
-              {pub.status && (
-                <p className="text-lg mb-2">
-                  <span className="font-semibold">Status: </span>
-                  {pub.status}
-                </p>
-              )}
               <p className="text-lg mb-2">
                 <span className="font-semibold">Year: </span>
                 {pub.year}

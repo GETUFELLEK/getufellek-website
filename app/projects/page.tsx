@@ -1,8 +1,19 @@
 "use client";
 import React from "react";
 
-const Projects = () => {
-  const projects = [
+type Project = {
+  title: string;
+  description: string;
+  link?: string; // Optional link property
+};
+
+type ProjectCategory = {
+  category: string;
+  items: Project[];
+};
+
+const Projects: React.FC = () => {
+  const projects: ProjectCategory[] = [
     {
       category: "Graph-Based Optimization",
       items: [
@@ -20,7 +31,6 @@ const Projects = () => {
         },
       ],
     },
-
     {
       category: "Speech Recognition",
       items: [
@@ -61,7 +71,6 @@ const Projects = () => {
         },
       ],
     },
-
     {
       category: "NLP & Computer Vision (Coming Soon)",
       items: [
@@ -87,7 +96,7 @@ const Projects = () => {
               <div key={idx} className="mb-6">
                 <h4 className="text-xl font-semibold mb-2">{project.title}</h4>
                 <p className="text-lg mb-4">{project.description}</p>
-                {project.link && (
+                {"link" in project && project.link && (
                   <a
                     href={project.link}
                     target="_blank"
