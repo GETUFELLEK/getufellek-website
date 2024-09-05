@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const publications = [
@@ -27,7 +28,7 @@ const publications = [
     journal:
       "IEEJ Transactions on Electrical and Electronic Engineering, 18(5), 701-713",
     year: 2023,
-    link: "https://doi.org/10.1002/tee.23326",
+    link: "https://doi.org/10.1002/tee.23771",
   },
   {
     title:
@@ -36,7 +37,7 @@ const publications = [
     conference:
       "IEEE International Conference on Industrial Engineering and Engineering Management (IEEM), Kuala Lumpur, Malaysia",
     year: 2022,
-    link: "https://doi.org/10.1109/IEEM.2022.1234567",
+    link: "https://ieeexplore.ieee.org/document/9989997",
   },
   {
     title:
@@ -44,6 +45,7 @@ const publications = [
     authors:
       "Goytom Gebreyesus, Getu Fellek, Ahmed Farid, Shigeru Fujimura, Osamu Yoshie",
     year: 2023,
+    link: " https://doi.org/10.1002/tee.23788",
   },
 ];
 
