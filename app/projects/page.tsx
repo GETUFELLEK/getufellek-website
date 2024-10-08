@@ -36,6 +36,7 @@ const Projects: React.FC = () => {
       items: [
         {
           title: "Multimodal Speech Recognition System",
+          link: "https://github.com/GETUFELLEK/multimodal-speech-recognition-with-lip-reading",
           description:
             "Developed and deployed a multimodal speech recognition system using TensorFlow Serving, enhancing real-time processing capabilities.",
         },
@@ -46,6 +47,7 @@ const Projects: React.FC = () => {
       items: [
         {
           title: "Cloud-Native ML Solutions for Traffic Flow Prediction",
+          link: "https://github.com/GETUFELLEK/Cloud-Native-ML-Solutions-for-Traffic-Flow-Prediction",
           description:
             "Developed and deployed cloud-native ML solutions for traffic flow prediction and anomaly detection, leveraging AWS and GCP services to ensure scalability and robustness.",
         },

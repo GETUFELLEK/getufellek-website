@@ -100,7 +100,7 @@ export default HomePage;
 //           <div className="md:w-1/2">
 //             {/* Using Next.js Image instead of img */} */}
 //             {/* {/* <Image
-//               src="/profile.png"
+//               src="/img.png"
 //               alt="Getu Tadesse Fellek"
 //               width={256}
 //               height={256}
