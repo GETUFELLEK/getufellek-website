@@ -51,6 +51,18 @@ const Projects: React.FC = () => {
           description:
             "Developed and deployed cloud-native ML solutions for traffic flow prediction and anomaly detection, leveraging AWS and GCP services to ensure scalability and robustness.",
         },
+
+      ],
+    },
+    {
+      category: "graph-based AI model to predict relationships between drugs and diseases",
+      items: [
+        {
+          title: "GNN based drug-disease interaction prediction",
+          link: "https://github.com/GETUFELLEK/GNN-based-drug-disease-prediction",
+          description:
+            "This project demonstrates how to use Graph Neural Networks (GNNs) to predict drug-disease interactions. By leveraging publicly available datasets such as DrugBank and build a graph-based AI model to predict relationships between drugs and diseases, such as which drug treats or causes a disease..",
+        },
       ],
     },
     {
