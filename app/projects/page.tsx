@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
       ],
     },
     {
-      category: "graph-based AI model to predict relationships between drugs and diseases",
+      category: "Graph-based AI model to predict relationships between drugs and diseases",
       items: [
         {
           title: "GNN based drug-disease interaction prediction",
