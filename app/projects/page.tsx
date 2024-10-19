@@ -42,6 +42,18 @@ const Projects: React.FC = () => {
         },
       ],
     },
+     {
+      category: "Realtime streaming ASR and Decoder only ASR",
+      items: [
+        {
+          title: "ASR for live streaming and Decoder only ASR sytem",
+          link: "https://github.com/GETUFELLEK/RealTime_and_DecoderOnly_ASR",
+          description:
+            "The real-time ASR system utilizes a pre-trained Wav2Vec2 model from Hugging Face for speech-to-text conversion, while the decoder-only ASR system is built from scratch with custom training and inference capabilities..",
+        },
+      ],
+    },
+
     {
       category: "Cloud-Native Solutions",
       items: [
