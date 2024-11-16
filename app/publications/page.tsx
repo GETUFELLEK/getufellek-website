@@ -39,7 +39,18 @@ const publications = [
     year: 2022,
     link: "https://ieeexplore.ieee.org/document/9989997",
   },
-  {
+
+
+{
+    title:
+      "Deep reinforcement learning‑based spatio‑temporal graph neural \n" +
+        "network for solving job shop scheduling problem",
+    authors:
+      "Goytom Gebreyesus, Getu Fellek, Ahmed Farid, Shigeru Fujimura, Osamu Yoshie",
+    year: 2024,
+    link: " https://doi.org/10.1007/s12065-024-00989-6",
+  },
+{
     title:
       "Gated Attention Model with Reinforcement Learning for Solving Dynamic Job Shop Scheduling Problem",
     authors:
